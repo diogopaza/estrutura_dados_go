@@ -7,3 +7,4 @@
  tamanho atual do slice e capacidade do array.</p>
  <p>meuSlice := make([]int, 3, 5 ) == neste exemplo é criado um slice de tamanho 3 e capacidade 5.</p>
 
+

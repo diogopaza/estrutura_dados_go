@@ -8,6 +8,7 @@ import(
 
 
 func main(){
+	/*
 	//declaração de um array
 	var meu_array [10]int
 	fmt.Println(meu_array)
@@ -27,6 +28,99 @@ func main(){
 	//alterando valor de um indice
 	meu_array[0]= 20
 	fmt.Println(meu_array)
+
+	//criar slice
+	meuSlice:= make([]int, 0)
+	fmt.Println(meuSlice)
+	var meuSegundoSlice []int
+	fmt.Println(meuSegundoSlice)
+
+	
+	//funçao append
+	testeSlice:= make([]int, 0,4)
+	fmt.Println(testeSlice)
+	fmt.Println("Tamanho: ", len(testeSlice))
+	fmt.Println("Capacidade: ", cap(testeSlice))
+	
+	testeSlice = append(testeSlice, 1)
+	fmt.Println(testeSlice)
+
+	testeSlice = append(testeSlice, 2)
+	fmt.Println(testeSlice)
+
+	fmt.Println("Tamanho: ", len(testeSlice))
+	fmt.Println("Capacidade: ", cap(testeSlice))
+
+	testeSlice = append(testeSlice, 3)
+	fmt.Println(testeSlice)
+	fmt.Println("Tamanho: ", len(testeSlice))
+	fmt.Println("Capacidade: ", cap(testeSlice))
+
+	testeSlice = append(testeSlice, 3)
+	fmt.Println(testeSlice)
+	fmt.Println("Tamanho: ", len(testeSlice))
+	fmt.Println("Capacidade: ", cap(testeSlice))
+
+	testeSlice = append(testeSlice, 3)
+	fmt.Println(testeSlice)
+	fmt.Println("Tamanho: ", len(testeSlice))
+	fmt.Println("Capacidade: ", cap(testeSlice))
+	*/
+	var novoSlice []int
+	fmt.Println(novoSlice)
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+	novoSlice=append(novoSlice, 1)
+	fmt.Println(novoSlice)
+	fmt.Println("Tamanho: ", len(novoSlice))
+	fmt.Println("Capacidade: ", cap(novoSlice))
+
+
+
 
 
 
